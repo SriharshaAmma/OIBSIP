@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Forgot Password{% endblock %}
+
+{% block content %}
+<h2>Forgot Password</h2>
+<form method="POST">
+  <label for="username">Enter your username</label>
+  <input type="text" name="username" required>
+  <button type="submit">Send OTP</button>
+</form>
+{% endblock %}

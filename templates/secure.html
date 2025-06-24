@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<h2>Welcome, {{ username }}!</h2>
+<p>This is a secured page only visible to logged-in users.</p>
+<p>Your role: <strong>{{ role }}</strong></p>
+
+<a href="{{ url_for('profile') }}">View Profile</a> |
+<a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+{% endblock %}

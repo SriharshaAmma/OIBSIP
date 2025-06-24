@@ -1,0 +1,21 @@
+{
+    "sriharsha": {
+        "password": "sri123",
+        "mobile": "9999999999",
+        "otp": "111111"
+    },
+    "sriharsha12": {
+        "password": "sri123456",
+        "mobile": "9381554231",
+        "otp": "123456"
+    },
+    "user_9381554231": {
+        "password": "Sri@123456",
+        "mobile": "9381554231",
+        "otp": "123456"
+    },
+    "harsha": {
+        "password": "harsha12",
+        "mobile": "9381554231"
+    }
+}
